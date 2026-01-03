@@ -4,14 +4,278 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>A wonder ful cafeteria</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+      * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; 
+}
+
+html, body {
+    width: 100%;
+    overflow-x: hidden; 
+    overscroll-behavior-y: none;
+}
+    </style>
 </head>
 <body>
-     <header>
-        <h1 style="text-align: center; height:300px;background-color:whitesmoke;color:black;margin:0px;">Come to feel like Home</h1>
-        <p style="color: blueviolet;">A nicely cafeteria to serve food which fell like home</p>
-     </header>
-     <h2 style="color: cadetblue;">
-        Our Mission
+    <nav>
+    <ul style="display: flex; list-style: none; align-items: center; padding: 10px; background-color: #f8f8f8;">
+        <li>
+            <img src="Ch_image/logo.png" alt="logo" height="50px" width="50px">
+        </li>
+
+        <div style="margin-left: auto;"></div>
+
+        <li style="margin-right: 10px;">
+            <button style="background-color:antiquewhite; color:darkviolet; padding: 8px 15px; border: none; border-radius: 5px; cursor: pointer;">Log in</button>
+        </li>
+        <li>
+            <button style="background-color: darkviolet; color:white; padding: 8px 15px; border: none; border-radius: 5px; cursor: pointer;">Sign up</button>
+        </li>
+    </ul>
+</nav>
+    <nav class="navbar">
+        <ul class="navbar ul ">
+            <li class="navbar li "><a  href="index.html" class="navbar a">Homepage</a></li>
+            <li class="navbar li "><a  href="Dream.html" class="navbar a">Dream cafe</a></li>
+            <li class="navbar li "><a href="shop.html" class="navbar a">Order</a></li>
+            <li class="navbar li "><a href="famous_dish.html" class="navbar a">famous_dish</a></li>
+            <li class="navbar li "><a href="Us.html" class="navbar a">about us</a></li>
+        </ul>
+    </nav>
+
+    <div style="margin-top:20px;margin-bottom:20px;height: 200px;display:flex;flex-direction:column;justify-content:center;align-items:center;background-color:whitesmoke">
+        <h1 style="color:rgb(51 51 51 / var(--tw-text-opacity, 1));font-size: 1.5rem;">
+            Dream Cafe
+        </h1>
+        <p style="color:blueviolet;">
+            For dreamers, thinkers, and late-night souls.
+        </p>
+    </div>
+    <div style="
+    margin: 40px auto; 
+    max-width: 800px; 
+    background: linear-gradient(135deg, #4b0082, #8b008b); 
+    color: white; 
+    display: flex; 
+    flex-direction: column; 
+    justify-content: center; 
+    align-items: center; 
+    padding: 40px; 
+    border-radius: 15px; 
+    box-shadow: 0 10px 30px rgba(0,0,0,0.15);
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+">
+    <h2 style="margin-bottom: 15px; font-size: 28px; letter-spacing: 1px; font-weight: 600;">
+        A place to share memories like family
+    </h2>
+    
+    <p style="font-size: 18px; line-height: 1.6; opacity: 0.9; font-weight: 300; max-width: 600px;">
+        Forget the busy world outside. Step in for a meal prepared with love, 
+        served with care, and shared with family. We bring the comfort of your 
+        kitchen table to our cafe.
+    </p>
+
+    <div style="width: 50px; height: 3px; background: #ffd700; margin-top: 20px;margin-bottom:20px; border-radius: 2px;"></div>
+</div>
+<div style="
+    display: flex; 
+    align-items: center; 
+    justify-content: center; 
+    gap: 50px; 
+    padding: 60px 20px; 
+    background-color: #faf9f6; 
+    flex-wrap: wrap;">
+    
+    <div style="flex: 0 1 auto;">
+        <img src="ch_image/time.jpg" alt="quiet time with coffee" 
+             style="height: 500px; width: 350px; object-fit: cover; border-radius: 20px; box-shadow: 0 20px 40px rgba(0,0,0,0.1);">
+    </div>
+
+    <div style="
+        flex: 1; 
+        max-width: 450px; 
+        font-family: 'Georgia', serif; 
+        color: #3e2723;">
+        
+        <h2 style="font-size: 32px; font-weight: 400; line-height: 1.4; margin-bottom: 20px; font-style: italic;">
+            "Dream Café is a quiet corner for <span style="color: darkmagenta;">tired minds</span>."
+        </h2>
+
+        <ul style="list-style: none; padding: 0; font-size: 18px; line-height: 2.5; color: #5d4037; border-left: 3px solid darkmagenta; padding-left: 20px;">
+            <li>☕ Coffee is slow</li>
+            <li>☁️ Thoughts are softer</li>
+            <li>⏳ Time is kinder</li>
+        </ul>
+    </div>
+
+</div>
+   <div style="
+      display:flex;
+      justify-content:center;
+      align-items:center;
+      gap:50px;
+      padding:60px 20px;
+      background-color: #faf9f6;
+      flex-wrap:wrap;
+   ">
+    <div style="
+      flex:1;
+      max-width:450px;
+      font-family:'Georgia', serif;
+      color:#3e2723;
+    ">
+     <h2 style="font-size: 32px;font-weight:400;line-height:1.4;margin-bottom:20px;font-style:italic">
+        Time flow like a smooth <span  style="color: darkmagenta;">River.</span>
      </h2>
+      <ul style="list-style: none; padding: 0; font-size: 18px; line-height: 2.5; color: #5d4037; border-right: 3px solid darkmagenta; padding-left: 20px;">
+            <li>📖Books stay open longer </li>
+            <li>💬☕Headphones make sense.</li>
+            <li>🎧🌙Long talks don’t feel long</li>
+        </ul>
+    </div>
+    <div style="flex: 0 1 auto;">
+        <img src="ch_image/book.jpg" alt="reading book in the corner of cafe" 
+             style="height: 500px; width: 350px; object-fit: cover; border-radius: 20px; box-shadow: 0 20px 40px rgba(0,0,0,0.1);">
+    </div>
+   </div>
+
+   <div style="
+    display: flex; 
+    align-items: center; 
+    justify-content: center; 
+    gap: 50px; 
+    padding: 60px 20px; 
+    background-color: #faf9f6; 
+    flex-wrap: wrap;">
+    
+    <div style="flex: 0 1 auto;">
+        <img src="ch_image/slowly.jpg" alt="slowly eat" 
+             style="height: 500px; width: 350px; object-fit: cover; border-radius: 20px; box-shadow: 0 20px 40px rgba(0,0,0,0.1);">
+    </div>
+
+    <div style="
+        flex: 1; 
+        max-width: 450px; 
+        font-family: 'Georgia', serif; 
+        color: #3e2723;">
+        
+        <h2 style="font-size: 32px; font-weight: 400; line-height: 1.4; margin-bottom: 20px; font-style: italic;">
+            "It's okay to  <span style="color: darkmagenta;">slow down.</span>."
+        </h2>
+
+        <ul style="list-style: none; padding: 0; font-size: 18px; line-height: 2.5; color: #5d4037; border-left: 3px solid darkmagenta; padding-left: 20px;">
+            <li>🕯️🪑No rush to leave the place</li>
+            <li>🍃💭Nothing is urgent here.</li>
+            <li>🍲🫶enjoy your meal</li>
+        </ul>
+    </div>
+
+</div>
+</div>
+   <div style="
+      display:flex;
+      justify-content:center;
+      align-items:center;
+      gap:50px;
+      padding:60px 20px;
+      background-color: #faf9f6;
+      flex-wrap:wrap;
+   ">
+    <div style="
+      flex:1;
+      max-width:450px;
+      font-family:'Georgia', serif;
+      color:#3e2723;
+    ">
+     <h2 style="font-size: 32px;font-weight:400;line-height:1.4;margin-bottom:20px;font-style:italic">
+       Dream Café is about <span  style="color: darkmagenta;">spend time</span> together.
+     </h2>
+      <ul style="list-style: none; padding: 0; font-size: 18px; line-height: 2.5; color: #5d4037; border-right: 3px solid darkmagenta; padding-left: 20px;">
+            <li>🤍👥Bring everyone. </li>
+            <li>🍽️❤️Empty plates, full hearts</li>
+            <li>🍲Meals taste better together.</li>
+        </ul>
+    </div>
+    <div style="flex: 0 1 auto;">
+        <img src="ch_image/memo.jpg" alt="Creat memory with friends" 
+             style="height: 500px; width: 350px; object-fit: cover; border-radius: 20px; box-shadow: 0 20px 40px rgba(0,0,0,0.1);">
+    </div>
+   </div>
+
+   <div style="
+    display: flex; 
+    align-items: center; 
+    justify-content: center; 
+    gap: 50px; 
+    padding: 60px 20px; 
+    background-color: #faf9f6; 
+    flex-wrap: wrap;">
+    
+    <div style="flex: 0 1 auto;">
+        <img src="ch_image/safe.jpg" alt="Serving safe food" 
+             style="height: 500px; width: 350px; object-fit: cover; border-radius: 20px; box-shadow: 0 20px 40px rgba(0,0,0,0.1);">
+    </div>
+
+    <div style="
+        flex: 1; 
+        max-width: 450px; 
+        font-family: 'Georgia', serif; 
+        color: #3e2723;">
+        
+        <h2 style="font-size: 32px; font-weight: 400; line-height: 1.4; margin-bottom: 20px; font-style: italic;">
+            "  <span style="color: darkmagenta;">Dream cafe</span>."
+        </h2>
+
+        <ul style="list-style: none; padding: 0; font-size: 18px; line-height: 2.5; color: #5d4037; border-left: 3px solid darkmagenta; padding-left: 20px;">
+            <li>👉 Dream Café — Where every meal feels like a family dinner.</li>
+            <li>👉 Dream Café — Food shared. Memories made.</li>
+            <li>👉 Dream Café — Come hungry. Leave together.</li>
+        </ul>
+    </div>
+</div>
+
+<footer style="
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: linear-gradient(135deg, #2d004d, #5a005a); 
+    color: white; 
+    padding: 60px 20px;
+    border-top: 3px solid #ffd700;
+">
+    <div style="flex: 1; min-width: 250px; margin-bottom: 30px; padding: 0 20px;">
+        <h2 style="color: #ffd700; margin-bottom: 15px;">Dream Café</h2>
+        <p style="opacity: 0.8; line-height: 1.6;">Where every cup tells a story and every moment feels like home.</p>
+    </div>
+
+    <div style="flex: 1; min-width: 200px; margin-bottom: 30px;">
+        <h3 style="margin-bottom: 20px; border-bottom: 2px solid rgba(255,255,255,0.1); padding-bottom: 10px; display: inline-block;">Support Center</h3>
+        <ul style="list-style: none; padding: 0; line-height: 2;">
+            <li><a href="#" style="color: white; text-decoration: none; opacity: 0.8;">About Us</a></li>
+            <li><a href="#" style="color: white; text-decoration: none; opacity: 0.8;">FAQ</a></li>
+            <li><a href="#" style="color: white; text-decoration: none; opacity: 0.8;">Plans & Pricing</a></li>
+            <li><a href="#" style="color: white; text-decoration: none; opacity: 0.8;">Contact Us</a></li>
+        </ul>
+    </div>
+
+    <div style="flex: 1; min-width: 200px; margin-bottom: 30px;">
+        <h3 style="margin-bottom: 20px; border-bottom: 2px solid rgba(255,255,255,0.1); padding-bottom: 10px; display: inline-block;">Legal</h3>
+        <ul style="list-style: none; padding: 0; line-height: 2;">
+            <li><a href="#" style="color: white; text-decoration: none; opacity: 0.8;">Legal Terms</a></li>
+            <li><a href="#" style="color: white; text-decoration: none; opacity: 0.8;">Privacy Policy</a></li>
+            <li><a href="#" style="color: white; text-decoration: none; opacity: 0.8;">Cookie Policy</a></li>
+        </ul>
+    </div>
+
+    <div style="width: 100%; text-align: center; margin-top: 40px; padding-top: 20px; border-top: 1px solid rgba(255,255,255,0.1); opacity: 0.6; font-size: 13px;">
+        © 2026 Dream Café. All rights reserved.
+    </div>
+    <div style="overflow-y: hidden;"></div>
+</footer>
 </body>
 </html>
