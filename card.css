@@ -1,0 +1,49 @@
+.card{
+    width: 220px;
+    height:300px;
+    background-color: #f3f3f3;
+    padding:30px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.678);
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+.card button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.card img{
+    height: 180px;
+}
+.card button {
+    margin-top: auto; /* এটিই বাটনকে সবসময় নিচে ফিক্সড রাখবে */
+    border: none;
+    border-radius: 10px;
+    height: 45px;
+    font-size: 18px;
+    background-color: blueviolet;
+    cursor: pointer;
+    width: 100%;
+}
+.card:hover{
+    transform: translateY(-10px);
+    box-shadow: 0 15px 30px rgba(137, 43, 226, 0); /* নীলচে শ্যাডো */
+}
+.big-div{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 100px;
+}
+.sec{
+    background-color:darkgray;
+    margin-bottom: 20px;
+}
+.sec h1{
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

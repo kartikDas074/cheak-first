@@ -1,24 +1,24 @@
 .navbar {
-    background-color: #333; /* ব্যাকগ্রাউন্ড কালার */
+    background-color: #333; 
     padding: 15px;
 }
 
 .navbar ul {
-    list-style-type: none; /* লিস্টের ডটগুলো মুছে দিবে */
-    display: flex;         /* আইটেমগুলো পাশাপাশি আনবে */
-    justify-content:end; /* মাঝখানে সাজাবে */
+    list-style-type: none; 
+    display: flex;         
+    justify-content:end; 
 }
 
 .navbar li {
-    margin: 0 20px;       /* একেকটি অপশনের মাঝে ফাঁকা জায়গা */
+    margin: 0 20px;       
 }
 
 .navbar a {
-    text-decoration: none; /* লিঙ্কের নিচের দাগ মুছে দিবে */
-    color: white;          /* লেখার রঙ সাদা করবে */
+    text-decoration: none; 
+    color: white;          
     font-weight: bold;
 }
 
 .navbar a:hover {
-    color: aqua;           /* মাউস নিলে রঙ পরিবর্তন হবে */
+    color: aqua;           
 }
